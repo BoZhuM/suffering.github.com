@@ -41,7 +41,7 @@ The code in the server side now looks like this:
 Json format data is just a bunch of key/value pairs.
 
 If the json data produced by `@products.to_json` is `{'name' => 'Jack'}`.
-if you write `{{name}}` , you will get `Jack`. This is the logic.
+if you write `name` in the Output markup , you will get `Jack`. This is the logic.
 
 So, Let's take a look at json's data types:
 
