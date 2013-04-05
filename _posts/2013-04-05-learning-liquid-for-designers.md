@@ -75,7 +75,7 @@ So, Let's take a look at json's data types:
 
 There are only Six data types. Very simple? isn't it?
 
-If you are interisted in JSON, vist this site: <http://www.json.org/>
+If you are interested in JSON, vist this site: <http://www.json.org/>
 
 The sever provid the data, render the data provided by you, this means do some logic control from code surrounded by \{\% \%\}, and replace something surrounded by \{\{\}\}.
 
@@ -110,7 +110,7 @@ In other languages it may be:
 
     data.method_name(arg1, arg2)
 
-This kind of syntax is called dot notation, but you sill never see it in Liquid.
+This kind of syntax is called dot notation, but you won't see it in Liquid.
 
 In Liquid:
 
