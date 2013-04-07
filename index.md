@@ -19,6 +19,9 @@ tagline: Ruby, Rails, Javascript, Html and CSS.
 <div class='posts'>
   {% for post in site.posts %}
   <div class='well'>
+    <span class='text-right'>
+    {{ post.date | date_to_string }}&raquo; 
+    </span>
     <h2>
       <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
     </h2>
