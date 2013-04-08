@@ -25,7 +25,7 @@ tagline: Ruby, Rails, Javascript, Html and CSS.
       <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
     </h2>
     <hr />
-    {{ post.raw_content | truncate:1000 | markdownify}}
+    {{ post.content | strip_html | truncatewords: 100}}
     <p class='text-right'><a href="{{ BASE_PATH }}{{ post.url }}">&raquo; Read More</a></p>
   </div>
   {% endfor %}
