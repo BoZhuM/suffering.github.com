@@ -1,7 +1,5 @@
 module Jekyll
-
   class RawContent < Generator
-
     def generate(site)
       site.posts.each do |post|
         tmp = post.content
@@ -9,7 +7,5 @@ module Jekyll
         post.data['raw_content'] = tmp
       end
     end
-  
   end
-
 end
